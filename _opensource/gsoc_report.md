@@ -47,6 +47,7 @@ Validation accuracies of models:
 | 400MF     | 70.19%           | 74.1%                       |
 | 600MF     | 73.18%           | 75.5%                       |
 | 800MF     | 73.94%           | 76.3%                       |
+
 <br>   
 
 ## TPU Research Cloud
