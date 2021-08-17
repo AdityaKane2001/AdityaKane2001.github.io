@@ -1,8 +1,7 @@
 ---
 permalink: /opensource/gsoc2021report
-title: "Aditya Kane: Computer vision and Deep Learning"
+title: "GSoC 2021 final report"
 collection: opensource
-excerpt: "GSoC 2021 final report"
 author_profile: true
 ---
 
@@ -44,12 +43,14 @@ RegNetY is originally implemented in PyTorch by Facebook AI Research in their re
 Training and evaluation of the model was the most interesting part of the project. It included finding the perfect setup which suited the model and gave the best accuracy. During the training, we fixated on the hyperparameters which resulted in the best performance and started improving from there. Iteratively and progressively, we were able to get substantial gains. It was common to go back to the model implementation and input pipeline to check their correctness and improve them. We left no stone unturned.   
 
 Validation accuracies of models:
+
 | **Model** | **Accuracy** |
 |-----------|--------------|
 | 200MF     |       67.54% |
 | 400MF     |       70.19% |
 | 600MF     |       73.18% |
 | 800MF     |       73.94% |
+
 <br>   
 
 ## TPU Research Cloud
