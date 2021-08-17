@@ -1,6 +1,6 @@
 ---
 permalink: /opensource/
-title: My open source contributions"
+title: My open source contributions
 excerpt: ""
 author_profile: true
 ---
