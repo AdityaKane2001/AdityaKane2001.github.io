@@ -1,11 +1,9 @@
 ---
 permalink: /opensource/gsoc2021report
-title: "GSoC 2021 final report"
+title: "GSoC 2021 at TensorFlow : Final Report"
 collection: opensource
 author_profile: true
 ---
-
-# GSoC 2021 at TensorFlow : Final Report
 
 ## **Implement RegNet-Y in TensorFlow 2**
 
