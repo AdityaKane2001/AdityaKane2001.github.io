@@ -23,7 +23,7 @@ I thank Google Summer of Code and TensorFlow for granting me this opportunity. I
 ## Overview
 
 RegNets, and RegNetY in particular is widely used for self-supervised learning and were previously not available in TensorFlow. During GSoC 2021, I implemented and trained RegNetY on the ImageNet-1k dataset. I trained four variants of RegNetY and uploaded them to TFHub. Project links and references are mentioned at the end of this file.   
-My time was largely devoted to three tasks: creating an efficient input pieline, coding the model architecture, training and fine-tuning the models. I also wrote readable and reusable code and gained insights about training on Google Cloud TPUs.   
+My time was largely devoted to three tasks: creating an efficient input pipeline, coding the model architecture, training and fine-tuning the models. I also wrote readable and reusable code and gained insights about training on Google Cloud TPUs.   
 <br>
 
 ## Important milestones
