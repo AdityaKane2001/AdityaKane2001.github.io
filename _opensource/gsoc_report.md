@@ -65,4 +65,4 @@ It has been an extraordinary journey of three months. During GSoC I got a chance
 1. [Designing Network design spaces by Radosavovic et al.](https://arxiv.org/abs/2003.13678)
 2. [AdityaKane2001/regnety](https://github.com/AdityaKane2001/regnety)
 3. [Google Summer of Code project page](https://summerofcode.withgoogle.com/projects/#4760303897673728)
-4. [TensorFlow Hub collection page]() 
+4. [TensorFlow Hub collection page](https://tfhub.dev/adityakane2001/collections/regnety/1) 
