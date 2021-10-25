@@ -19,7 +19,7 @@ I also contributed by resolving issues on their GitHub page as well as StackOver
 
 ## Keras
 
-My contributions to TensorFlow include the following [Pull Requests](https://github.com/search?q=is%3Apr+user%3Akeras-team+author%3AAdityaKane2001&type=Issues). 
+My contributions to Keras include the following [Pull Requests](https://github.com/search?q=is%3Apr+user%3Akeras-team+author%3AAdityaKane2001&type=Issues). 
 
 ## Google Summer of Code 2021 at TensorFlow
 
@@ -28,5 +28,4 @@ My project included implementing and training RegNetY models from the paper **De
 
 ## Other projects
 
-I have contributed to small projects like [pytorch-retinanet](https://github.com/search?q=is%3Apr+repo%3Ayhenon%2Fpytorch-retinanet+author%3AAdityaKane2001&type=Issues) (a PyTorch implementation of the  RetinaNet), [SmallPebble](https://github.com/search?q=is%3Apr+user%3Asradc+author%3AAdityaKane2001&type=Issues) (a see-through autodiff library written in Python), [awesomo](https://github.com/search?q=is%3Apr+repo%3Alk-geimfari%2Fawesomo+author%3AAdityaKane2001&type=Issues) (a collection of interesting projects). I contributed to these projects because even though they were small, they were interesting to see and learn about.    
-
+I have contributed to small projects like [pytorch-retinanet](https://github.com/search?q=is%3Apr+repo%3Ayhenon%2Fpytorch-retinanet+author%3AAdityaKane2001&type=Issues) (a PyTorch implementation of the  RetinaNet), [SmallPebble](https://github.com/search?q=is%3Apr+user%3Asradc+author%3AAdityaKane2001&type=Issues) (a see-through autodiff library written in Python), [awesomo](https://github.com/search?q=is%3Apr+repo%3Alk-geimfari%2Fawesomo+author%3AAdityaKane2001&type=Issues) (a collection of interesting projects). 
