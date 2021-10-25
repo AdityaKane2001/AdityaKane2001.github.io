@@ -18,4 +18,4 @@ Hi there! I am Aditya Kane and this website contains my blog posts, publications
 
 ## A bit about me...
 
-I am a junior of Computer Enginnering at Pune Institute of Computer Technology, Pune. Deeply interested in Computer Vision. I :heart: open source! 
+I am a junior of Computer Enginnering at Pune Institute of Computer Technology, Pune. Deeply interested in Computer Vision. I ❤️ open source! 
