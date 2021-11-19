@@ -7,7 +7,7 @@ tags:
   - software engineering
   - machine learning
 ---
-
+A step-by-step guide to building Keras.
 
 Building Keras from source
 ======
