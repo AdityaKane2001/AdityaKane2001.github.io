@@ -1,7 +1,7 @@
 ---
 title: 'Building Keras from source: A follow along guide'
 date: 2021-11-19
-permalink: /posts/building_keras_from_source/
+permalink: /blogs/building_keras_from_source/
 tags:
   - keras
   - software engineering
