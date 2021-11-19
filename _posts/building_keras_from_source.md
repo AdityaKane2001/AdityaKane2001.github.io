@@ -19,6 +19,8 @@ Keras has recently taken a big step towards improving developer inference by hos
  
 This blog post aims to serve as a beacon for budding developers who wish to contribute to Keras but are not familiar with the building and testing procedure. Let’s dive in!
 
+This blog can be also found on [Towards Data Science](https://towardsdatascience.com/building-keras-from-source-a-follow-along-guide-2bcc4cea3aec).
+
 Building from source:
 --------------------
 To all the new ones here, I’d like to take a  moment to explain what “building from source” exactly means. This can mean many things (best explained [here](https://stackoverflow.com/questions/1622506/programming-definitions-what-exactly-is-building)), but in our case it means the following: 
