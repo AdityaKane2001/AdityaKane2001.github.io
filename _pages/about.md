@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Aditya Kane: Computer vision and Deep Learning"
+title: "Aditya Kane: Computer Vision and Deep Learning"
 excerpt: "About me"
 author_profile: true
 redirect_from: 

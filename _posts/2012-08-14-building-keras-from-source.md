@@ -12,6 +12,7 @@ A step-by-step guide to building Keras.
 Building Keras from source
 ======
 
+This article originally appeared on [Towards Data Science](https://towardsdatascience.com/building-keras-from-source-a-follow-along-guide-2bcc4cea3aec).
 
 Prelude:
 --------
@@ -19,7 +20,6 @@ Keras has recently taken a big step towards improving developer inference by hos
  
 This blog post aims to serve as a beacon for budding developers who wish to contribute to Keras but are not familiar with the building and testing procedure. Let’s dive in!
 
-This blog can be also found on [Towards Data Science](https://towardsdatascience.com/building-keras-from-source-a-follow-along-guide-2bcc4cea3aec).
 
 Building from source:
 --------------------
