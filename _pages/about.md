@@ -13,8 +13,8 @@ Hi there! I am Aditya Kane and this website contains my blog posts, publications
 
 ## What's new?
 
+- Incorporated RegNets into `tf.keras.applications` ([PR here](https://github.com/keras-team/keras/pull/15702)).
 - New blog on [building Keras from source](https://towardsdatascience.com/building-keras-from-source-a-follow-along-guide-2bcc4cea3aec).
-- Currently working on incorporating RegNets into `tf.keras.applications` ([PR](https://github.com/keras-team/keras/pull/15419)).
 
 ## A bit about me...
 

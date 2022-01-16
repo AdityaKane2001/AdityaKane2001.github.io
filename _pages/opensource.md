@@ -19,7 +19,7 @@ I also contributed by resolving issues on their GitHub page as well as StackOver
 
 ## Keras
 
-My contributions to Keras include the following [Pull Requests](https://github.com/search?q=is%3Apr+user%3Akeras-team+author%3AAdityaKane2001&type=Issues). 
+My contributions to Keras include the following [Pull Requests](https://github.com/search?q=is%3Apr+user%3Akeras-team+author%3AAdityaKane2001&type=Issues). Most notably, I have added RegNets to `tf.keras.applications`. Check out the PR [here](https://github.com/keras-team/keras/pull/15702).
 
 ## Google Summer of Code 2021 at TensorFlow
 
