@@ -32,7 +32,7 @@ The number of Blocks and their channel width in each Stage is determined by a si
 ## The Pull Request:
 Before opening a pull request which requires large amounts of work, it is advisable to consult the team first so that there is no conflict of interest. After getting a solid confirmation from the Keras team, I started working on the code. You can check out our discussion [here](https://github.com/keras-team/keras/issues/15240). Below is a small snippet from our conversation:
 
-![](_data/images/posts/training-regnet/pr.png)
+![](images\posts\training-regnets\pr.png)
 
 François Chollet and the Keras team were super supportive and made merging the PR a smooth process. I express my heartfelt gratitude to the team for their help.
 Even though I had 24 models to implement, the basic code was fairly straightforward. Thus, I was able to create a PR with the code and get reviews from the team quickly. Check out the PR [here](https://github.com/keras-team/keras/pull/15702).
@@ -158,25 +158,25 @@ I had to train 12 variants of RegNetX and RegNetY each. This included small mode
  *Learning point: Do a hyperparameter search for small models. Repeat the search as the size of models increases.*
 
 ### Noteworthy learnings: 
-1. **Use multiple copies of the data if possible**
+- **Use multiple copies of the data if possible**
 It was observed the training would stop abruptly and would be stuck at 
 the end of an epoch. I use the `tf.data.Dataset.interleave`   method which reads data from multiple TFRecords simultaneously. During this read operation, the TFRecords are unavailable to other processes. I used to train multiple models in parallel, and thus they constantly needed to read data from the same bucket. Thus, to counter this, I created multiple copies of the TFRecords and saved them in different buckets. This reduced collisions and the problem reduced substantially.
 
 
-2. **Dump logs at a single location**
+- **Dump logs at a single location**
 While training a number of models, maintaining the logs may get out of hand. The best way, in my opinion, is to dump all the raw logs at one location. In our case, I organized the logs and checkpoints of the models using the time and date of training. This made it easier to locate and use the checkpoints where needed. Following is a snap of the same:
 
-![](_data/images/posts/training-regnet/logs.png)
+![](images\posts\training-regnets\logs.png)
 
-3. **Use automation to reduce cognitive load**
+- **Use automation to reduce cognitive load**
 Managing many experiments simultaneously quickly becomes a difficult task. Automating the things which you need to do repeatedly is an extremely useful thing to do from the beginning.  For example, one can use Weights and Biases (W&B) to automatically track all experiments. It is useful to log the hyperparameters along with the runs in W&B rather than feeding them manually. These seemingly small things reduce a ton of cognitive load, so you can actually focus on what’s important - running experiments. Following is a snapshot of our runs:
 
 
-4. **Gain intuitions of how the model might react to certain changes to hyperparameters**
+- **Gain intuitions of how the model might react to certain changes to hyperparameters**
 After working on a single architecture for days or months, you may notice patterns in the performance of models. This helps in building intuitions of how the model might react to different changes in hyperparameters. Using this newfound intuition, you might be able to come up with ideas which might help in increasing performance. For example, using a slightly higher weight decay for RegNetY004 leads to sudden increase followed by a decrease of accuracy at the end of the run, but using a lower weight decay flattens this out. This implies that usage of a more aggressive augmentation policy along with lower weight decay may help in training, in this case. In similar fashion, one can spot changes in hyperparameters which lead to significant improvements.
 
 
-![](_data/images/posts/training-regnet/runs.png)
+![](images\posts\training-regnets\runs.png)
 
 Finally, here are the results. In the following tables, I compare our results with the paper. The last column has the hyperparameters which are different from the original implementation.
 
