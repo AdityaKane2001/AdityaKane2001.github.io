@@ -166,7 +166,7 @@ the end of an epoch. I use the `tf.data.Dataset.interleave`   method which reads
 2. Dump logs at a single location
 While training a number of models, maintaining the logs may get out of hand. The best way, in my opinion, is to dump all the raw logs at one location. In our case, I organized the logs and checkpoints of the models using the time and date of training. This made it easier to locate and use the checkpoints where needed. Following is a snap of the same:
 
-![](/images/posts/training-regnet/logs.png)
+![](_data/images/posts/training-regnet/logs.png)
 
 3. Use automation to reduce cognitive load
 Managing many experiments simultaneously quickly becomes a difficult task. Automating the things which you need to do repeatedly is an extremely useful thing to do from the beginning.  For example, one can use Weights and Biases (W&B) to automatically track all experiments. It is useful to log the hyperparameters along with the runs in W&B rather than feeding them manually. These seemingly small things reduce a ton of cognitive load, so you can actually focus on what’s important - running experiments. Following is a snapshot of our runs:
