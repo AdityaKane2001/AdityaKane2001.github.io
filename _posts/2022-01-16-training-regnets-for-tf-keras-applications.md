@@ -19,7 +19,8 @@ I performed several experiments with these models, because the reported accuraci
 
 
 ## Acknowledgements:
-I sincerely thank the Keras team for allowing me to add these models. Huge thanks to the [TPU Research Group (TRC)](https://sites.research.google/trc/about/) for providing TPUs for the entire duration of this project, without which the project would have been impossible. Google supported this work by providing Google Cloud credit. Thanks a lot to [Francois Chollet](https://github.com/fchollet) and [Matt Watson](https://github.com/mattdangerw) from the Keras team for their reviews. Thanks to [Qianli Scott Zhu](https://github.com/qlzh727) for his guidance in building Keras from source on TPU VMs. Special thanks to [Lukas Geiger] (https://github.com/lgeiger) for his contributions to the code. Thanks a ton to [Sayak Paul](https://github.com/sayakpaul) for his continuous guidance and encouragement.
+
+Today these models were pushed to the official docs. I sincerely thank the Keras team for allowing me to add these models. Huge thanks to the [TPU Research Group (TRC)](https://sites.research.google/trc/about/) for providing TPUs for the entire duration of this project, without which this would not have been possible. Thanks a lot to [Francois Chollet](https://github.com/fchollet) for allowing this and guiding me throughout the process. Thanks to [Qianli Scott Zhu](https://github.com/qlzh727) for his guidance in building Keras from source on TPU VMs. Thanks to [Matt Watson](https://github.com/mattdangerw) for his support regarding grouped convolutions. Special thanks to [Lukas Geiger](https://github.com/lgeiger) for his contributions to the code. Last but not least, thanks a ton to [Sayak Paul](https://github.com/sayakpaul) for his continuous guidance and encouragement.
 
 ## The Basics
 ### About the paper
