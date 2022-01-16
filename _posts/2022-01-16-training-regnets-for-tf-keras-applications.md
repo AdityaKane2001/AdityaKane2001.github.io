@@ -163,16 +163,16 @@ It was observed the training would stop abruptly and would be stuck at
 the end of an epoch. I use the `tf.data.Dataset.interleave`   method which reads data from multiple TFRecords simultaneously. During this read operation, the TFRecords are unavailable to other processes. I used to train multiple models in parallel, and thus they constantly needed to read data from the same bucket. Thus, to counter this, I created multiple copies of the TFRecords and saved them in different buckets. This reduced collisions and the problem reduced substantially.
 
 
-2. Dump logs at a single location
+2. **Dump logs at a single location**
 While training a number of models, maintaining the logs may get out of hand. The best way, in my opinion, is to dump all the raw logs at one location. In our case, I organized the logs and checkpoints of the models using the time and date of training. This made it easier to locate and use the checkpoints where needed. Following is a snap of the same:
 
 ![](_data/images/posts/training-regnet/logs.png)
 
-3. Use automation to reduce cognitive load
+3. **Use automation to reduce cognitive load**
 Managing many experiments simultaneously quickly becomes a difficult task. Automating the things which you need to do repeatedly is an extremely useful thing to do from the beginning.  For example, one can use Weights and Biases (W&B) to automatically track all experiments. It is useful to log the hyperparameters along with the runs in W&B rather than feeding them manually. These seemingly small things reduce a ton of cognitive load, so you can actually focus on what’s important - running experiments. Following is a snapshot of our runs:
 
 
-4. Gain intuitions of how the model might react to certain changes to hyperparameters 
+4. **Gain intuitions of how the model might react to certain changes to hyperparameters**
 After working on a single architecture for days or months, you may notice patterns in the performance of models. This helps in building intuitions of how the model might react to different changes in hyperparameters. Using this newfound intuition, you might be able to come up with ideas which might help in increasing performance. For example, using a slightly higher weight decay for RegNetY004 leads to sudden increase followed by a decrease of accuracy at the end of the run, but using a lower weight decay flattens this out. This implies that usage of a more aggressive augmentation policy along with lower weight decay may help in training, in this case. In similar fashion, one can spot changes in hyperparameters which lead to significant improvements.
 
 
