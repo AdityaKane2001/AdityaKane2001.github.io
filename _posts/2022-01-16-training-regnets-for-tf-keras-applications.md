@@ -32,7 +32,7 @@ The number of Blocks and their channel width in each Stage is determined by a si
 ## The Pull Request:
 Before opening a pull request which requires large amounts of work, it is advisable to consult the team first so that there is no conflict of interest. After getting a solid confirmation from the Keras team, I started working on the code. You can check out our discussion [here](https://github.com/keras-team/keras/issues/15240). Below is a small snippet from our conversation:
 
-![](/images/training-regnets/pr.png)
+![](/images/posts/training-regnets/pr.png)
 
 François Chollet and the Keras team were super supportive and made merging the PR a smooth process. I express my heartfelt gratitude to the team for their help.
 Even though I had 24 models to implement, the basic code was fairly straightforward. Thus, I was able to create a PR with the code and get reviews from the team quickly. Check out the PR [here](https://github.com/keras-team/keras/pull/15702).
@@ -41,7 +41,7 @@ Even though I had 24 models to implement, the basic code was fairly straightforw
 
 ### General Setup
 
-I mainly used the TPUv3-8 Node for training. It has a 96-core VM with around 335 GB RAM, which handles heavy preprocessing with ease. After  preprocessing raw images/training-regnets were resized to 224x224 as mentioned in the paper. I used multiple TPU Nodes simultaneously to allow running many experiments in parallel. This reduced the experimentation time considerably.
+I mainly used the TPUv3-8 Node for training. It has a 96-core VM with around 335 GB RAM, which handles heavy preprocessing with ease. After  preprocessing raw images/posts/training-regnets were resized to 224x224 as mentioned in the paper. I used multiple TPU Nodes simultaneously to allow running many experiments in parallel. This reduced the experimentation time considerably.
 
 The code used for training is available [here](https://github.com/AdityaKane2001/regnets_trainer).
 
@@ -51,11 +51,11 @@ I trained these models on the powerful TPU-v3 (thanks to TRC). This meant that I
 
 *Learning point: It is important to implement augmentations in the most efficient and stable way possible and minimize slow and redundant ops in the process.*
 
-Some chunks of the code are repeated, but this guarantees that the function remains pure. Here being pure simply means absence of break statements, which would otherwise cause the graph to change arbitrarily. One can also see, for example, the variable w_crop is cast to tf.int32exactly once in the entire function call. It is important to do such optimizations, because we are working with a single image at a time and not a batch of images/training-regnets. You can check out the code [here](https://github.com/AdityaKane2001/regnets_trainer/blob/63bf8fb00e83fe92ae8a6f2ce2307bc9274d43e0/dataset.py#L384-L536). The actual code was not included in this blog for the sake of brevity.
+Some chunks of the code are repeated, but this guarantees that the function remains pure. Here being pure simply means absence of break statements, which would otherwise cause the graph to change arbitrarily. One can also see, for example, the variable w_crop is cast to tf.int32exactly once in the entire function call. It is important to do such optimizations, because we are working with a single image at a time and not a batch of images/posts/training-regnets. You can check out the code [here](https://github.com/AdityaKane2001/regnets_trainer/blob/63bf8fb00e83fe92ae8a6f2ce2307bc9274d43e0/dataset.py#L384-L536). The actual code was not included in this blog for the sake of brevity.
 
 
 
-We can see that some chunks of the code are repeated, but this guarantees that the function remains pure. Here being pure simply means absence of break statements, which would otherwise cause the graph to change arbitrarily. One can also see, for example, the variable `w_crop` is cast to `tf.int32` exactly once in the entire function call. It is important to do such optimizations, because we are working with a single image at a time and not a batch of images/training-regnets.   
+We can see that some chunks of the code are repeated, but this guarantees that the function remains pure. Here being pure simply means absence of break statements, which would otherwise cause the graph to change arbitrarily. One can also see, for example, the variable `w_crop` is cast to `tf.int32` exactly once in the entire function call. It is important to do such optimizations, because we are working with a single image at a time and not a batch of images/posts/training-regnets.   
 
 Apart from inception style cropping, the implementation of the remaining input pipeline was fairly simple. I used inception cropping, channel-wise PCA jitter, horizontal flip and mixup.
 
@@ -63,15 +63,15 @@ PCA jitter:
 ```python
     def _pca_jitter(self, image, target):
         """
-        Applies PCA jitter to images/training-regnets.
+        Applies PCA jitter to images/posts/training-regnets.
         Args:
-            image: Batch of images/training-regnets to perform random rotation on.
+            image: Batch of images/posts/training-regnets to perform random rotation on.
             target: Target tensor.
         Returns:
-            Augmented example with batch of images/training-regnets and targets with same dimensions.
+            Augmented example with batch of images/posts/training-regnets and targets with same dimensions.
         """
 
-        aug_images/training-regnets = tf.cast(image, tf.float32) / 255.
+        aug_images/posts/training-regnets = tf.cast(image, tf.float32) / 255.
         alpha = tf.random.normal((self.batch_size, 3), stddev=0.1)
         alpha = tf.stack([alpha, alpha, alpha], axis=1)
         rgb = tf.math.reduce_sum(
@@ -79,12 +79,12 @@ PCA jitter:
         rgb = tf.expand_dims(rgb, axis=1)
         rgb = tf.expand_dims(rgb, axis=1)
 
-        aug_images/training-regnets = aug_images/training-regnets + rgb
-        aug_images/training-regnets = aug_images/training-regnets * 255.
+        aug_images/posts/training-regnets = aug_images/posts/training-regnets + rgb
+        aug_images/posts/training-regnets = aug_images/posts/training-regnets * 255.
 
-        aug_images/training-regnets = tf.cast(tf.clip_by_value(aug_images/training-regnets, 0, 255), tf.uint8)
+        aug_images/posts/training-regnets = tf.cast(tf.clip_by_value(aug_images/posts/training-regnets, 0, 255), tf.uint8)
 
-        return aug_images/training-regnets, target
+        return aug_images/posts/training-regnets, target
 ```
 
 Mixup: 
@@ -123,17 +123,17 @@ Random horizontal flip:
 ```python
     def random_flip(self, image: tf.Tensor, target: tf.Tensor) -> tuple:
         """
-        Returns randomly flipped batch of images/training-regnets. Only horizontal flip
+        Returns randomly flipped batch of images/posts/training-regnets. Only horizontal flip
         is available
         Args:
-            image: Batch of images/training-regnets to perform random rotation on.
+            image: Batch of images/posts/training-regnets to perform random rotation on.
             target: Target tensor.
         Returns:
-            Augmented example with batch of images/training-regnets and targets with same dimensions.
+            Augmented example with batch of images/posts/training-regnets and targets with same dimensions.
         """
 
-        aug_images/training-regnets = tf.image.random_flip_left_right(image)
-        return aug_images/training-regnets, target
+        aug_images/posts/training-regnets = tf.image.random_flip_left_right(image)
+        return aug_images/posts/training-regnets, target
 ``` 
 –
 PCA jitter and random horizontal flip were suggested in the paper, whereas addition of mixup was inspired by the papers [Revisited ResNets](https://arxiv.org/abs/2103.07579). 
@@ -166,7 +166,7 @@ the end of an epoch. I use the `tf.data.Dataset.interleave`   method which reads
 - **Dump logs at a single location**
 While training a number of models, maintaining the logs may get out of hand. The best way, in my opinion, is to dump all the raw logs at one location. In our case, I organized the logs and checkpoints of the models using the time and date of training. This made it easier to locate and use the checkpoints where needed. Following is a snap of the same:
 
-![](/images/training-regnets/logs.png)
+![](/images/posts/training-regnets/logs.png)
 
 - **Use automation to reduce cognitive load**
 Managing many experiments simultaneously quickly becomes a difficult task. Automating the things which you need to do repeatedly is an extremely useful thing to do from the beginning.  For example, one can use Weights and Biases (W&B) to automatically track all experiments. It is useful to log the hyperparameters along with the runs in W&B rather than feeding them manually. These seemingly small things reduce a ton of cognitive load, so you can actually focus on what’s important - running experiments. Following is a snapshot of our runs:
@@ -176,7 +176,7 @@ Managing many experiments simultaneously quickly becomes a difficult task. Autom
 After working on a single architecture for days or months, you may notice patterns in the performance of models. This helps in building intuitions of how the model might react to different changes in hyperparameters. Using this newfound intuition, you might be able to come up with ideas which might help in increasing performance. For example, using a slightly higher weight decay for RegNetY004 leads to sudden increase followed by a decrease of accuracy at the end of the run, but using a lower weight decay flattens this out. This implies that usage of a more aggressive augmentation policy along with lower weight decay may help in training, in this case. In similar fashion, one can spot changes in hyperparameters which lead to significant improvements.
 
 
-![](/images/training-regnets/runs.png)
+![](/images/posts/training-regnets/runs.png)
 
 Finally, here are the results. In the following tables, I compare our results with the paper. The last column has the hyperparameters which are different from the original implementation.
 
