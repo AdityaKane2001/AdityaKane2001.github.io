@@ -9,4 +9,4 @@ redirect_from:
 
 {% include base_path %}
 
-<embed src="{{ site.baseurl }}/files/Aditya_Kane_Resume.pdf" type="application/pdf" width="600px"/>
+<embed src="{{ site.baseurl }}/files/Aditya_Kane_Resume.pdf" type="application/pdf" width="600px" height="500px"/>
