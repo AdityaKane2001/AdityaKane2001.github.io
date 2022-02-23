@@ -7,6 +7,11 @@ author_profile: true
 
 This page summarizes my open source contributions. All of them can be found on [GitHub](https://github.com/AdityaKane2001/).
 
+## Keras
+
+My contributions to Keras include the following [Pull Requests](https://github.com/search?q=is%3Apr+user%3Akeras-team+author%3AAdityaKane2001&type=Issues). Most notably, I have added RegNets to `tf.keras.applications`. Check out the PR [here](https://github.com/keras-team/keras/pull/15702).
+
+
 ## TensorFlow
 
 My contributions to TensorFlow include the following [Pull Requests](https://github.com/search?q=is%3Apr+user%3Atensorflow+author%3AAdityaKane2001&type=Issues). To summarize, my contributions to this project are as follows:
@@ -16,10 +21,6 @@ My contributions to TensorFlow include the following [Pull Requests](https://git
 3. Improved documentation.
 
 I also contributed by resolving issues on their GitHub page as well as StackOverflow. 
-
-## Keras
-
-My contributions to Keras include the following [Pull Requests](https://github.com/search?q=is%3Apr+user%3Akeras-team+author%3AAdityaKane2001&type=Issues). Most notably, I have added RegNets to `tf.keras.applications`. Check out the PR [here](https://github.com/keras-team/keras/pull/15702).
 
 ## Google Summer of Code 2021 at TensorFlow
 
