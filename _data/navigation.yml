@@ -4,13 +4,16 @@ main:
   #   url: /publications/
 
   - title: "Talks"
-    url: /talks/    
+    url: /talks/
 
   # - title: "Portfolio"
   #   url: /portfolio/
-        
+
   - title: "Blog Posts"
     url: /blogs/
 
   - title: "Open source"
     url: /opensource/
+
+  - title: "Publications"
+    url: /publication/

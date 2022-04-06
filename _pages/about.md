@@ -13,8 +13,8 @@ Hi there! I am Aditya Kane and this website contains my blog posts, publications
 
 ## What's new?
 
+- Our paper "[Transformer based ensemble for emotion detection](https://arxiv.org/abs/2203.11899)" is accepted at ACL WASSA Workshop 2022!
 - Incorporated RegNets into `tf.keras.applications` ([PR here](https://github.com/keras-team/keras/pull/15702)).
-- New blog on [building Keras from source](https://towardsdatascience.com/building-keras-from-source-a-follow-along-guide-2bcc4cea3aec).
 
 ## A bit about me...
 
