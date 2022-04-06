@@ -4,7 +4,7 @@ collection: publications
 permalink: /publication/2022-04-05-transformers-ensemble
 excerpt: 'Emotion detection using innovative data sampling techniques and ensemble of transformers.'
 date: 2022-04-05
-venue: 'ACL WASSA Workshop 2022'
+venue: 'ACL WASSA Workshop'
 paperurl: 'https://arxiv.org/pdf/2203.11899.pdf'
 citation: 'Kane, A., Patankar, S., Khose, S. and Kirtane, N., 2022. Transformer based ensemble for emotion detection. arXiv preprint arXiv:2203.11899.'
 ---
