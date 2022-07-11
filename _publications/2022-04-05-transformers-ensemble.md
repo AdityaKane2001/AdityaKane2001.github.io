@@ -4,7 +4,7 @@ collection: publications
 permalink: /publication/2022-04-05-transformers-ensemble
 excerpt: 'Emotion detection using innovative data sampling techniques and ensemble of transformers.'
 date: 2022-04-05
-venue: 'ACL WASSA Workshop'
+venue: 'ACL WASSA Workshop 2022'
 paperurl: 'https://aclanthology.org/2022.wassa-1.25/'
 citation: 'Aditya Kane, Shantanu Patankar, Sahil Khose, and Neeraja Kirtane. 2022. Transformer based ensemble for emotion detection. In Proceedings of the 12th Workshop on Computational Approaches to Subjectivity, Sentiment & Social Media Analysis, pages 250–254, Dublin, Ireland. Association for Computational Linguistics.'
 ---

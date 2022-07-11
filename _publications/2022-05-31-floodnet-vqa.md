@@ -4,7 +4,7 @@ collection: publications
 permalink: /publication/2022-05-31-floodnet-vqa
 excerpt: 'A state-of-the-art baseline for VQA on the FloodNet dataset.'
 date: 2022-05-31
-venue: 'Under review'
+venue: 'ICML NewInML Workshop 2022'
 paperurl: 'https://arxiv.org/pdf/2205.15025.pdf'
 citation: 'Kane, Aditya and Sahil Khose. “An Efficient Modern Baseline for FloodNet VQA.” (2022).'
 ---
