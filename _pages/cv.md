@@ -6,8 +6,6 @@ author_profile: true
 redirect_from:
   - /resume
   - /cv
-  - /resume/
-  - /cv/
 ---
 
 {% include base_path %}
