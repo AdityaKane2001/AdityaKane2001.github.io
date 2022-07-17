@@ -10,12 +10,14 @@ This page summarizes my open source contributions. All of them can be found on [
 ## KerasCV
 
 KerasCV is a repository of modular building blocks (layers, metrics, losses, data-augmentation) that applied computer vision engineers can leverage to quickly assemble production-grade, state-of-the-art training and inference pipelines. KerasCV can be understood as a horizontal extension of the Keras API: the components are new first-party Keras objects (layers, metrics, etc) that are too specialized to be added to core Keras, but that receive the same level of polish and backwards compatibility guarantees as the rest of the Keras API and that are maintained by the Keras team itself (unlike TFAddons).
+
 My contributions to KerasCV include the following [Pull Requests](https://github.com/search?q=is%3Apr+repo%3Akeras-team%2Fkeras-cv+author%3AAdityaKane2001&type=Issues). Some of the important ones include RandomResizedCrop (a.k.a. Inception crop, Stochastic Depth and porting over models from `keras.applications` to `keras_cv.models`.
 
 
 ## Keras
 
 Keras is Deep learning APT built on top of TensorFlow. Keras is an API designed for human beings, not machines. Keras follows best practices for reducing cognitive load: it offers consistent & simple APIs, it minimizes the number of user actions required for common use cases, and it provides clear & actionable error messages. It also has extensive documentation and developer guides.
+
 My contributions to Keras include the following [Pull Requests](https://github.com/search?q=is%3Apr+repo%3Akeras-team%2Fkeras+author%3AAdityaKane2001&type=Issues). Most notably, I have added RegNets to `tf.keras.applications`. Check out the PR [here](https://github.com/keras-team/keras/pull/15702).
 
 
