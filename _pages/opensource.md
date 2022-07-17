@@ -36,6 +36,7 @@ I also contributed by resolving issues on their GitHub page as well as StackOver
 ## Google Summer of Code 2021 at TensorFlow
 
 Google Summer of Code is a global, online program focused on bringing new contributors into open source software development. GSoC Contributors work with an open source organization on a 12+ week programming project under the guidance of mentors.
+
 My project included implementing and training RegNetY models from the paper **Designing network design spaces** by Radosavovic et al. on ImageNet-1k dataset. The final report is available [here](gsoc2021report). 
 
 
