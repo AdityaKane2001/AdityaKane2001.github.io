@@ -2,7 +2,7 @@
 title: "An Efficient Modern Baseline for FloodNet VQA"
 collection: publications
 permalink: /publication/2022-05-31-floodnet-vqa
-excerpt: 'A state-of-the-art baseline for VQA on the FloodNet dataset.'
+excerpt: 'A state-of-the-art baseline for VQA on the FloodNet dataset. Won the Second Best Paper award in NewInML Workshop 2022.'
 date: 2022-05-31
 venue: 'ICML NewInML Workshop'
 paperurl: 'https://arxiv.org/pdf/2205.15025.pdf'
