@@ -18,7 +18,7 @@ Hi there! I am Aditya Kane and this website contains my blog posts, publications
 
 ## A bit about me...
 
-I am a senior Computer Enginnering undergrad at Pune Institute of Computer Technology, Pune. 
+I am a senior Computer Engineering undergrad at Pune Institute of Computer Technology, Pune. 
 
 
 I'm currently working as a Research Intern at IISc, Bengaluru under the guidance of Dr. Suresh Sundaram and Dr. Chandan Gautam. Mainly working on Out-of-Distribution detection in NLP. 
@@ -27,4 +27,4 @@ I'm currently working as a Research Intern at IISc, Bengaluru under the guidance
 I frequently contribute to the Keras ecosystem. My contributions are aimed towards adding meaningful components that improve user experience, something that Keras stands for. Apart from that, I'm usually squashing nasty bugs in the code. I have summarized my contributions on the "[Open source](https://adityakane2001.github.io/opensource/)" page.
 
 
-Feel free to reach out for collaborations. For faster replies, drop and issue in my [profile repo](https://github.com/AdityaKane2001)!
+Feel free to reach out for collaborations. For faster replies, drop an issue in my [profile repo](https://github.com/AdityaKane2001)!
