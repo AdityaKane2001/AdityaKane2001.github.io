@@ -9,21 +9,21 @@ This page summarizes my open source contributions. All of them can be found on [
 
 ## KerasCV
 
-KerasCV is a repository of modular building blocks (layers, metrics, losses, data-augmentation) that applied computer vision engineers can leverage to quickly assemble production-grade, state-of-the-art training and inference pipelines. KerasCV can be understood as a horizontal extension of the Keras API: the components are new first-party Keras objects (layers, metrics, etc) that are too specialized to be added to core Keras, but that receive the same level of polish and backwards compatibility guarantees as the rest of the Keras API and that are maintained by the Keras team itself (unlike TFAddons).
+KerasCV is a repository of modular building blocks (layers, metrics, losses, data-augmentation) that applied computer vision engineers can leverage to quickly assemble production-grade, state-of-the-art training and inference pipelines. 
 
 My contributions to KerasCV include the following [Pull Requests](https://github.com/search?q=is%3Apr+repo%3Akeras-team%2Fkeras-cv+author%3AAdityaKane2001&type=Issues). Some of the important ones include RandomResizedCrop (a.k.a. Inception crop, Stochastic Depth and porting over models from `keras.applications` to `keras_cv.models`.
 
 
 ## Keras
 
-Keras is Deep learning APT built on top of TensorFlow. Keras is an API designed for human beings, not machines. Keras follows best practices for reducing cognitive load: it offers consistent & simple APIs, it minimizes the number of user actions required for common use cases, and it provides clear & actionable error messages. It also has extensive documentation and developer guides.
+Keras is Deep learning APT built on top of TensorFlow. Keras offers consistent & simple APIs, it minimizes the number of user actions required for common use cases, and it provides clear & actionable error messages. It also has extensive documentation and developer guides.
 
 My contributions to Keras include the following [Pull Requests](https://github.com/search?q=is%3Apr+repo%3Akeras-team%2Fkeras+author%3AAdityaKane2001&type=Issues). Most notably, I have added RegNets to `tf.keras.applications`. Check out the PR [here](https://github.com/keras-team/keras/pull/15702).
 
 
 ## TensorFlow
 
-TensorFlow is an end-to-end open source platform for machine learning. It has a comprehensive, flexible ecosystem of tools, libraries and community resources that lets researchers push the state-of-the-art in ML and developers easily build and deploy ML powered applications.
+TensorFlow is an end-to-end open source platform for machine learning. 
 
 My contributions to TensorFlow include the following [Pull Requests](https://github.com/search?q=is%3Apr+user%3Atensorflow+author%3AAdityaKane2001&type=Issues). To summarize, my contributions to this project are as follows:
 
@@ -32,6 +32,9 @@ My contributions to TensorFlow include the following [Pull Requests](https://git
 3. Improved documentation.
 
 I also contributed by resolving issues on their GitHub page as well as StackOverflow. 
+
+
+My contributions to Google's ML Ecosystem are recorded in this [document](https://docs.google.com/document/d/1R-Usj4iRrMDy0OA-x7umNPk5M7gob5Ev_H4wQlxNtcs/edit?usp=sharing).
 
 ## Google Summer of Code 2021 at TensorFlow
 
