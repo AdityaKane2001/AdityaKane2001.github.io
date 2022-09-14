@@ -36,12 +36,17 @@ I also contributed by resolving issues on their GitHub page as well as StackOver
 
 My contributions to Google's ML Ecosystem are recorded in this [document](https://docs.google.com/document/d/1R-Usj4iRrMDy0OA-x7umNPk5M7gob5Ev_H4wQlxNtcs/edit?usp=sharing).
 
-## Google Summer of Code 2021 at TensorFlow
+## Google Summer of Code (GSoC)
 
 Google Summer of Code is a global, online program focused on bringing new contributors into open source software development. GSoC Contributors work with an open source organization on a 12+ week programming project under the guidance of mentors.
 
+### GSoC 2021 at TensorFlow
+
 My project included implementing and training RegNetY models from the paper **Designing network design spaces** by Radosavovic et al. on ImageNet-1k dataset. The final report is available [here](gsoc2021report). 
 
+### GSoC 2022 at TensorFlow
+
+My project included incorporating several model blocks and augmentation layers to KerasCV. The final project report is available [here](gsoc2022report).
 
 ## Other projects
 
