@@ -38,7 +38,7 @@ My contributions to Google's ML Ecosystem are recorded in this [document](https:
 
 ## Google Summer of Code (GSoC)
 
-Google Summer of Code is a global, online program focused on bringing new contributors into open source software development. GSoC Contributors work with an open source organization on a 12+ week programming project under the guidance of mentors.
+Google Summer of Code is a global, online program focused on bringing new contributors into open source software development. GSoC Contributors work with an open source organization on a 12+ week programming project under the guidance of mentors. I was a GSoC student contributor at TensorFlow for 2021 and 2022 programs. 
 
 ### GSoC 2021 at TensorFlow
 
