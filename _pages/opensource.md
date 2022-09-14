@@ -16,7 +16,7 @@ My contributions to KerasCV include the following [Pull Requests](https://github
 
 ## Keras
 
-Keras is Deep learning APT built on top of TensorFlow. Keras offers consistent & simple APIs, it minimizes the number of user actions required for common use cases, and it provides clear & actionable error messages. It also has extensive documentation and developer guides.
+Keras is Deep learning API built on top of TensorFlow. Keras offers consistent & simple APIs, it minimizes the number of user actions required for common use cases, and it provides clear & actionable error messages. It also has extensive documentation and developer guides.
 
 My contributions to Keras include the following [Pull Requests](https://github.com/search?q=is%3Apr+repo%3Akeras-team%2Fkeras+author%3AAdityaKane2001&type=Issues). Most notably, I have added RegNets to `tf.keras.applications`. Check out the PR [here](https://github.com/keras-team/keras/pull/15702).
 
