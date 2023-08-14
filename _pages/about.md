@@ -13,18 +13,16 @@ Hi there! I am Aditya Kane and this website contains my blog posts, publications
 
 ## What's new?
 
-- Our paper "[An Efficient Modern Baseline for FloodNet VQA](https://arxiv.org/abs/2205.15025)" is accepted at ICML NewInML Workshop 2022!
-- Our paper "[Transformer based ensemble for emotion detection](https://aclanthology.org/2022.wassa-1.25/)" is accepted at ACL WASSA Workshop 2022!
+🎓 Joining Georgia Institute of Technology for Master's in Computer Science this Fall!
 
 ## A bit about me...
 
-I am a senior Computer Engineering undergrad at Pune Institute of Computer Technology, Pune. 
+I am a first year graduate student at Georgia Institute of Technology in Computer Science with specialization in Machine Learning.
 
-
-I'm currently working as a Research Intern at IISc, Bengaluru under the guidance of Dr. Suresh Sundaram and Dr. Chandan Gautam. Mainly working on Out-of-Distribution detection in NLP. 
-
+I am working on problems related to vision and language.
 
 I frequently contribute to the Keras ecosystem. My contributions are aimed towards adding meaningful components that improve user experience, something that Keras stands for. Apart from that, I'm usually squashing nasty bugs in the code. I have summarized my contributions on the "[Open source](https://adityakane2001.github.io/opensource/)" page.
 
+In my spare time, I tend to listen to Indian classical music and play chess. Hit me up if you wanna battle it out on the board!
 
 Feel free to reach out for collaborations. For faster replies, drop an issue in my [profile repo](https://github.com/AdityaKane2001)!
