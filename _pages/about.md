@@ -19,7 +19,7 @@ I am currently working on architecture design and efficiency of vision transform
 
 I have been the Head Graduate Teaching Assistant for Fall 2023, Spring 2024 and Fall 2024 (ongoing) offerings of Introduction to Computer Vision course at Georgia Tech taught by Prof. Humphrey Shi.
 
-I :heart: open source software. In the past I have contributed to the TensorFlow ecosystem, and my experience is described on the [open-source page](https://adityakane2001.github.io/opensource/). 
+I ❤️ open source software. In the past I have contributed to the TensorFlow ecosystem, and my experience is described on the [open-source page](https://adityakane2001.github.io/opensource/). 
 
 In my spare time, I tend to listen to Indian classical music. 
 
