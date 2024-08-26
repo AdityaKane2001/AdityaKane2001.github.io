@@ -11,18 +11,14 @@ redirect_from:
 Hi there! I am Aditya Kane and this website contains my blog posts, publications and projects.
 <br>
 
-## What's new?
-
-🎓 Joining Georgia Institute of Technology for Master's in Computer Science this Fall!
-
 ## A bit about me...
 
-I am a first year graduate student at Georgia Institute of Technology in Computer Science with specialization in Machine Learning. 
+I am a second year master's student at Georgia Institute of Technology in Computer Science with specialization in Machine Learning. 
 
-I am working on problems related to vision and language under the guidance of Prof. Humphrey Shi. Currently working on multimodal large language models and efficiency in hierarchical vision transformers.
+I am currently working on architecture design and efficiency of vision transformers under the guidance of [Prof. Humphrey Shi](https://www.humphreyshi.com/home). Prior to that I dabbled in low-resource language models and open set detection in NLP.
 
-I frequently contribute to the Keras ecosystem. My contributions are aimed towards adding meaningful components that improve user experience, something that Keras stands for. Apart from that, I'm usually squashing nasty bugs in the code. I have summarized my contributions on the "[Open source](https://adityakane2001.github.io/opensource/)" page.
+I have been the Head Graduate Teaching Assistant for Fall 2023, Spring 2024 and Fall 2024 (ongoing) offerings of Introduction to Computer Vision course at Georgia Tech taught by Prof. Humphrey Shi.
 
-In my spare time, I tend to listen to Indian classical music and play chess. 
+In my spare time, I tend to listen to Indian classical music. 
 
 Feel free to reach out for collaborations. For faster replies, drop an issue in my [profile repo](https://github.com/AdityaKane2001)!
