@@ -25,7 +25,7 @@ def modify_html(input_html):
     menu_div = soup.new_tag("div", **{"class": "menu"})
     header = soup.new_tag("header")
     header_link = soup.new_tag("a", href="../../../index.html")
-    header_link.string = "TOM SAWADA"
+    header_link.string = "Aditya Kane"
     header.append(header_link)
     menu_div.append(header)
 
